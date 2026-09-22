@@ -210,3 +210,5 @@ message(
   round(as.numeric(outerTotalTime, units = "mins"), 2),
   " minutes"
 )
+
+write.csv(arimaTable, "data/arimaTable_new.csv", row.names = FALSE)
