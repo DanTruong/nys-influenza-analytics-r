@@ -5,7 +5,7 @@ library(tidyr)
 library(forecast)
 library(stats)
 library(datasets)
-library(dummies)
+#library(dummies)
 library(TTR)
 
 # Load in dataset file
